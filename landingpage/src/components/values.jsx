@@ -49,6 +49,7 @@ export default function ContactUs() {
         <div className="flex justify-center">
           <div className="border-[10px] relative  bg-gray-600/5 rounded-b-lg  rounded-t-[50%] border-gray-500/5 shadow-gray-900/40 shadow-2xl h-[25rem] md:h-[27rem] w-[23rem]">
             {" "}
+          
             <img
               src="/values.jpg"
               className="absolute h-full w-full rounded-t-[50%] rounded-b-xl "
