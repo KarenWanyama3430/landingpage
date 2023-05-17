@@ -29,6 +29,7 @@ const toggleVisibility=()=>{
           <p className="col-span-1">Product</p>
           <p className="md:text-center md:col-span-2">About Us</p>
         </div>
+        
         <span className="md:col-span-1">
           <button className="bg-nav_purple h-9 w-fit p-2 rounded-md">
             Contact
