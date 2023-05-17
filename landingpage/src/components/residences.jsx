@@ -150,6 +150,7 @@ export default function Residences() {
           return <House key={index} {...item} />;
         })}
       </div>
+      
       {/* mobile */}
       <div className="grid grid-cols-2 md:hidden gap-1 grid-rows-1 ">
         {data.slice(startmobile, endmobile).map((item, index) => {
