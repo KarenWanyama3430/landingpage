@@ -13,7 +13,8 @@ import Footer from "./components/footer";
 
 function App() {
   return (
-    <div className="font-poppins">
+   
+   <div className="font-poppins">
       <div className="bg-black ">
         <Navbar />
       </div>
