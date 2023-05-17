@@ -1,5 +1,6 @@
 export default function House({ image, price, name, details }) {
   return (
+    
     <div className="shadow-md rounded p-2 md:p-0 m-1">
       <div className="h-32 xsm:h-44 xl:h-48 2xl:h-56 relative">
         <img
