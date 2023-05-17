@@ -9,6 +9,7 @@ export default function Contact({ details, title, children ,number,action}) {
     setExpanded(!expanded);
   }
 
+  
   return (
     <div className="border-gray-300/20 p-2 pb-3 rounded-md shadow-sm border-[3px]">
       <div className="flex p-2 rounded flex-row  ">
