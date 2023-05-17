@@ -22,7 +22,7 @@ export default function Residences() {
     }
   }
 
-  
+
   function forward() {
     if (start < data.length && end < data.length) {
       setStart(start + 3);
@@ -106,6 +106,7 @@ export default function Residences() {
         <h2 className="font-bold mx-2 basis-5/6 text-lg xsm:text-2xl md:text-3xl text-lightishgpurple/50">
           Popular Release<span className="text-orange-600">.</span>
         </h2>
+
 
         <div className="absolute hidden md:block right-1">
           <button
