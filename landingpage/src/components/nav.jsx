@@ -7,6 +7,7 @@ const toggleVisibility=()=>{
   setVisibility(!visibble)
 }
 
+
   return (
     <>
       <div className="hidden md:grid xsm:mx-0 w-screen  md:text-center text-xs gap-2 grid-rows-3 md:grid-rows-none md:grid-cols-12 p-3 font-bold bg-black text-gray-100/70 ">
