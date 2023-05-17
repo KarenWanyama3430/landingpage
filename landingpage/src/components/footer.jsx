@@ -11,7 +11,7 @@ export default function Footer() {
             </p>
           </div>
           <p className="md:text-xs text-[.6rem]">
-            Our ur vision is to make all people the best place to live for them
+            Our vision is to make all people the best place to live for them
           </p>
         </div>
         <div className="hidden md:block"></div>
