@@ -30,6 +30,7 @@ export default function Footer() {
           <p>Capital</p>
           <p>Security</p>
         </div>
+      
         <div className="md:text-xs text-[.6rem]">
           <p className="font-bold md:text-xl text-blue-800">Support</p>
           <p>FAQs</p>
