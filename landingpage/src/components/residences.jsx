@@ -22,6 +22,7 @@ export default function Residences() {
     }
   }
 
+  
   function forward() {
     if (start < data.length && end < data.length) {
       setStart(start + 3);
