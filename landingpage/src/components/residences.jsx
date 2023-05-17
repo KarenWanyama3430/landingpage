@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import House from "./house";
 import { useState } from "react";
 
+
 export default function Residences() {
   const [start, setStart] = useState(0);
   const [end, setEnd] = useState(3);
