@@ -39,7 +39,8 @@ export default function Singlevalue({details,title,children}) {
           </div>
         </div>
         {expanded && (
-      <div className="relative">
+     
+     <div className="relative">
                 <div className="bg-slate-700/50 inset-11 blur-3xl absolute"></div>
               <p className="text-[0.66rem] text-left mt-4 mb-3 ml-4 mr-8 text-gray-500/50 ">
                 {details}
