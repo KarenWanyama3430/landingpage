@@ -8,6 +8,7 @@ export default function House({ image, price, name, details }) {
           src={image}
         />
       </div>
+      
       <div className="m-2">
         <p className="text-darkpurple font-medium">
           <span className="font-bold text-xl text-orange-600/60">$</span>
