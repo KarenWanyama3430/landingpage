@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types'
 import Location from './location'
 
-
 export default function Search({onChange}) {
   return (
 <div className='mt-4 w-[80%] mx-[10%] xsm:mx-0 xsm:w-full md:w-[114%] lg:w-[113%]  md:z-10'>
