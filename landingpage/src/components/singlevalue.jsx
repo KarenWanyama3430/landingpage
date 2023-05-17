@@ -14,6 +14,7 @@ export default function Singlevalue({details,title,children}) {
           {children}
         </div>{" "}
       </div>
+      
       <div className="basis-11/12">
         <div>
           <div className="text-left font-bold text-lightishgpurple  text-xs ml-2 relative">
