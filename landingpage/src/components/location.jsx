@@ -10,6 +10,7 @@ export default function Location({size, className}) {
       width={size}
       height={size}
       
+      
       viewBox="0 0 395.71 395.71"
       
       stroke="#2c49c3"
