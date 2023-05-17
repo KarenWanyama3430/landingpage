@@ -64,7 +64,7 @@ export default function Values() {
             Easy to contact us<span className="text-orange-600">.</span>
           </h2>
           <p className="mx-10 md:mr-8 md:mx-0 text-xs md:text-sm">
-            Is there a problem finfing your dream home? Need a guide in buying your first home? or need a consultation on residential issuess? just contact us.
+            Is there a problem finding your dream home? Need a guide in buying your first home? or need a consultation on residential issuess? just contact us.
           </p>
           <div className="grid grid-cols-2 gap-3 mt-2 mx-8 md:mx-0  md:mr-[8%]">
             {data.map((item, index) => (

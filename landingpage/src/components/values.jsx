@@ -64,7 +64,7 @@ export default function ContactUs() {
             Value We Give To You.<span className="text-orange-600">.</span>
           </h2>
           <p className="md:mr-[33%] mr-8  mx-6 md:mx-0 text-xs md:text-sm">
-            We are always reay to help by providing the best service for you ,
+            We are always ready to help by providing the best service for you ,
             We belive a good place to live can make your life better
           </p>
           <div className="grid grid-flow-row gap-2 mt-2 mx-[2%] mr md:mr-[33%]">
