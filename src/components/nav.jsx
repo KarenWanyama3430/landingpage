@@ -55,7 +55,7 @@ const toggleVisibility=()=>{
                   src="blueorb.svg"
                   className="h-4 -z-10 absolute text-blue-600 -right-2 "
                 />
-                Homyz
+                IREAN
               </p>
             </div>
           </div>
@@ -63,7 +63,7 @@ const toggleVisibility=()=>{
             <p className="md:col-span-2">Properties</p>
             <p className="md:col-span-2 ">Service</p>
             <p className="col-span-1">Product</p>
-            <p className="w-fit">About Us</p>
+            <p className="w-full">About Us</p>
             <span>Contact</span>
             <span className="border border-nav_purple "></span>
           </div>

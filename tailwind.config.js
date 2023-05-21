@@ -6,7 +6,7 @@ export default {
       colors: {
         nav_purple: "#2c4cca",
         darkpurple: "#1f3e72",
-        lightishgpurple: "##506ddb",
+        lightpurple: "##506ddb",
       },
       fontFamily: {
         poppins: "Poppins",
@@ -14,6 +14,9 @@ export default {
       screens: {
         xsm: "405px",
       },
+      fontSize:{
+       custom: "14px"
+      }
     },
   },
   plugins: [],

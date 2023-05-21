@@ -57,23 +57,22 @@ export default function ContactUs() {
       </div>
       <div className="mx-2 mt-8 md:mt-0 md:text-left text-center md:mx-8 col-span-6 md:col-span-1">
         <div className=" text-darkpurple">
-          <h4 className="text-orange-600 mt-10 text-sm md:text-base font-semibold ">
+          <h4 className="text-orange-600 mt-10 text-xl md:text-lg font-semibold ">
             Our Value
           </h4>
-          <h2 className="font-bold text-sm md:text-xl">
-            Value We Give To You.<span className="text-orange-600">.</span>
+          <h2 className="font-bold text-2xl md:text-xl">
+            Value We Give To You<span className="text-orange-600">.</span>
           </h2>
-          <p className="md:mr-[33%] mr-8  mx-6 md:mx-0 text-xs md:text-sm">
+          <p className="md:mr-[15%] mr-8  mx-6 md:mx-0 text-custom md:text-custom">
             We are always reay to help by providing the best service for you ,
             We belive a good place to live can make your life better
           </p>
-          <div className="grid grid-flow-row gap-2 mt-2 mx-[2%] mr md:mr-[33%]">
+          <div className="grid grid-flow-row gap-2 mt-2 ml-2 mr md:mr-[20%]">
             {data.map((item, index) => (
               <Singlevalue
                 key={index}
                   {...item}
-              >
-              </Singlevalue>
+              />
             ))}
           </div>
         </div>

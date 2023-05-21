@@ -37,7 +37,7 @@ export default function Footer() {
         </div>
         <div className="md:ml-[50%] ml-5 md:text-xs text-[.6rem]">
           <p className="font-bold md:text-xl text-blue-800">Movement</p>
-          <p>What Homyz?</p>
+          <p>What IREAN?</p>
           <p>Support Us</p>
           <p></p>
         </div>

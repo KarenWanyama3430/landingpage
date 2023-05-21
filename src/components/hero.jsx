@@ -38,7 +38,7 @@ export default function Hero() {
             <h1 className="lg:text-4xl text-2xl xsm:text-4xl  font-bold">
               Property
             </h1>
-            <div className="text-gray-50/40 text-xs xl:text-base mt-2 ">
+            <div className="text-gray-50/40 text-sm xl:text-base mt-2 ">
               <p>Find a variety of properties that suite you very well,</p>
               <p>forget all difficulties in finfing a residence for you</p>
             </div>
@@ -76,7 +76,7 @@ export default function Hero() {
         >
           <img
             src="/block1.jpg"
-            className="md:absolute md:z-10 md:left-[5%] md:-top-[0%] xl:top-[0%] h-[80%] md:h-[23rem] w-[75%] object-fill rounded-t-[50%] rounded-b-xl"
+            className="md:absolute  md:z-10 md:left-[5%] md:-top-[0%] xl:top-[0%] h-[90%] md:h-[23rem] w-[75%] object-fill rounded-t-[50%] rounded-b-xl"
           />
 
           <div className="-bottom-2 absolute md:block blur-lg shadow-2xl brightness-200 h-7 w-[85%] left-[0%] bg-white hidden" />

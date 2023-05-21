@@ -97,11 +97,11 @@ export default function Residences() {
 
   return (
     <section className="mt-2 md:w-[80%] font-poppins relative mx-1 xsm:mx-4 md:mx-[10%]">
-      <h3 className="font-bold mx-2 text-sm xsm:text-base text-orange-600">
+      <h3 className="font-bold mx-2 text-sm xsm:text-lg text-orange-600">
         Best Choice
       </h3>
       <div className="flex flex-row  mb-3">
-        <h2 className="font-bold mx-2 basis-5/6 text-lg xsm:text-2xl md:text-3xl text-lightishgpurple/50">
+        <h2 className="font-bold mx-2 basis-5/6 text-lg xsm:text-2xl md:text-3xl text-darkpurple">
           Popular Release<span className="text-orange-600">.</span>
         </h2>
 

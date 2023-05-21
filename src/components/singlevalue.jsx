@@ -17,7 +17,7 @@ export default function Singlevalue({details,title,icon}) {
       </div>
       <div className="basis-11/12">
         <div>
-          <div className="text-left font-bold text-lightishgpurple  text-xs ml-2 relative">
+          <div className="text-left font-semibold3 text-lightishgpurple  text-base ml-2 relative">
             <p onClick={toggleExpanded} className="mt-1 select-none">{title}</p>{" "}
             <span className="absolute top-1 right-1">
               {expanded ? (
@@ -40,8 +40,8 @@ export default function Singlevalue({details,title,icon}) {
         </div>
         {expanded && (
       <div className="relative">
-                <div className="bg-slate-700/50 inset-11 blur-3xl absolute"></div>
-              <p className="text-[0.66rem] text-left mt-4 mb-3 ml-4 mr-8 text-gray-500/50 ">
+                <div className="bg-slate-700/30 inset-11 blur-3xl absolute"></div>
+              <p className="text-sm md:text-sm text-left mt-4 mb-3 ml-4 mr-8 text-gray-500/50 ">
                 {details}
               
               </p>

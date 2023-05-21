@@ -14,8 +14,8 @@ export default function House({ image, price, name, details }) {
           <span className="font-bold text-xl text-orange-600/60">$</span>
           {price}
         </p>
-        <p className="font-bold md:text-base text-sm text-darkpurple">{name}</p>
-        <p className="text-[0.7rem] text-black/40">{details}</p>
+        <p className="font-bold md:text-lg text-darkpurple">{name}</p>
+        <p className="text-sm  text-black/40">{details}</p>
       </div>
     </div>
   );

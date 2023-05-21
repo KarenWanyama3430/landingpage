@@ -55,15 +55,15 @@ export default function Values() {
 
   return (
     <div className="md:grid grid-cols-10 md:grid-cols-2 mt-10 md:mt-20">
-      <div className="md:ml-[22%] mt-10 mb-4 md:mt-0 md:text-left text-center md:mx-8 col-span-6 md:col-span-1">
+      <div className="md:ml-[6%] md:translate-x-10 mt-10 mb-4 md:mt-0 md:text-left text-center md:mx-8 col-span-6 md:col-span-1">
         <div className=" text-darkpurple">
-          <h4 className="text-orange-600 text-sm md:text-base font-semibold ">
+          <h4 className="text-orange-600 text-xl md:text-base font-semibold ">
             Contact Us
           </h4>
-          <h2 className="font-bold mb-3 text-sm md:text-xl">
+          <h2 className="font-bold mb-3 text-2xl md:text-xl">
             Easy to contact us<span className="text-orange-600">.</span>
           </h2>
-          <p className="mx-10 md:mr-8 md:mx-0 text-xs md:text-sm">
+          <p className="mx-10 md:mr-8 md:mx-0 text-sm md:text-sm">
             Is there a problem finfing your dream home? Need a guide in buying your first home? or need a consultation on residential issuess? just contact us.
           </p>
           <div className="grid grid-cols-2 gap-3 mt-2 mx-8 md:mx-0  md:mr-[8%]">

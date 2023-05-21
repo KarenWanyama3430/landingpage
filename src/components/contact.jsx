@@ -1,7 +1,4 @@
-import React from "react";
 import { useState } from "react";
-import { useEffect } from "react";
-import { AiFillCaretDown, AiFillCaretUp, BsShieldFillX } from "react-icons/all";
 
 export default function Contact({ details, title, children ,number,action}) {
   const [expanded, setExpanded] = useState(false);
@@ -19,19 +16,19 @@ export default function Contact({ details, title, children ,number,action}) {
         </div>
         <div className="basis-11/12">
           <div>
-            <div className="text-left  text-lightishgpurple  text-sm ml-2 relative">
+            <div className="text-left  text-lightishgpurple text-xs  md:text-sm ml-2 relative">
               <p
                 onClick={toggleExpanded}
                 className="mt-1 font-bold select-none"
               >
                 {title}
               </p>
-              <p className=" text-[.6rem]">{number}</p>
+              <p className="text-xs">{number}</p>
             </div>
           </div>
         </div>
       </div>
-      <button className="text-nav_purple font-semibold mx-[5%] bg-gray-500/20 rounded text-[.6rem] h-9 w-[90%]">
+      <button className="text-nav_purple font-semibold mx-[5%] bg-gray-500/20 rounded text-xs h-9 w-[90%]">
         {action}
       </button>
     </div>
